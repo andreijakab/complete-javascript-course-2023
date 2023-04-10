@@ -25,7 +25,7 @@ let myCurrentJob = 'Teacher';
 //
 // Lecture: Data Types
 //
-
+/*
 console.log("true");
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -47,3 +47,22 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+//
+// Lecture: let, const and var
+//
+
+let age = 30;
+age = 50;
+
+const birthYear = 1991;
+// birthYear = 1990;
+
+// const job;
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Jakab";
+console.log(lastName);
