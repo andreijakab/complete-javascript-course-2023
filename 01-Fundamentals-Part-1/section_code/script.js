@@ -106,7 +106,7 @@ console.log(now - 1991 > now - 2018);
 //
 // Lecture: Operator Precedence
 //
-
+/*
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -121,3 +121,34 @@ console.log(x, y);
 
 const averageAge = (ageJonas + ageSarah) / 2
 console.log(ageJonas, ageSarah, averageAge);
+*/
+
+//
+// Strings and Template Literals
+//
+
+const firstName = 'Jonas';
+const job = "teacher";
+const birthYear = 1991;
+const currentYear = 2037;
+
+// string assembly using concatenation
+const jonas = "I'm " + firstName + ", a " + (currentYear - birthYear) + " years' old " + job + "!";
+console.log(jonas);
+
+// string assembly using a template string
+const jonasNew = `I'm ${firstName}, a ${currentYear - birthYear} years' old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+
+// multiline strings using template literals pre-ES6
+// (apparently only works because of a bug in the language)
+console.log("String with \n\
+multiple \n\
+lines");
+
+// multiline strings using template literals post-ES6
+console.log(`String
+multiple
+lines`);
