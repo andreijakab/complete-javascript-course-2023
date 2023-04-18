@@ -126,7 +126,7 @@ console.log(ageJonas, ageSarah, averageAge);
 //
 // Strings and Template Literals
 //
-
+/*
 const firstName = 'Jonas';
 const job = "teacher";
 const birthYear = 1991;
@@ -152,3 +152,27 @@ lines");
 console.log(`String
 multiple
 lines`);
+*/
+
+//
+// Taking Decisions: if / else statements
+//
+
+const age = 15;
+
+if (age >= 18) {
+    console.log(`Sarah can get her driving license 👌`)
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} year(s).`)
+}
+
+const birthYear = 1991;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
